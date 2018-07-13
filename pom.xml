@@ -10,7 +10,7 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>linenotify</artifactId>
-    <version>0.1</version>
+    <version>0.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <properties>
         <jenkins.version>2.7.3</jenkins.version>
@@ -84,7 +84,7 @@
         <connection>scm:git:git@github.com/wisdomcdh/jenkins-line-notify-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:wisdomcdh/jenkins-line-notify-plugin.git</developerConnection>
         <url>https://github.com/wisdomcdh/jenkins-line-notify-plugin.git</url>
-        <tag>linenotify-0.1</tag>
+        <tag>HEAD</tag>
     </scm>
     <repositories>
         <repository>
