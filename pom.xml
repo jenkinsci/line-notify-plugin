@@ -9,7 +9,7 @@
         <relativePath />
     </parent>
     <groupId>io.jenkins.plugins</groupId>
-    <artifactId>linenotify</artifactId>
+    <artifactId>line-notify</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <properties>
