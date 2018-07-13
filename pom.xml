@@ -80,10 +80,10 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/linenotify-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/linenotify-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/linenotify-plugin</url>
-        <tag>linenotify-0.1</tag>
+        <connection>scm:git:git@github.com/wisdomcdh/jenkins-line-notify-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com/wisdomcdh/jenkins-line-notify-plugin.git</developerConnection>
+        <url>https://github.com/wisdomcdh/jenkins-line-notify-plugin.git</url>
+        <tag>HEAD</tag>
     </scm>
     <repositories>
         <repository>
