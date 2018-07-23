@@ -88,7 +88,6 @@
         <plugins>
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>3.5.4</version>
                 <configuration>
                     <tagNameFormat>line-notify-@{project.version}</tagNameFormat>
                 </configuration>
