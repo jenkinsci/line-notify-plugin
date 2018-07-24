@@ -8,15 +8,15 @@
 		<relativePath />
 	</parent>
 	<groupId>io.jenkins.plugins</groupId>
-	<artifactId>line-notify</artifactId>
-	<version>0.1</version>
+	<artifactId>naver-line-notify</artifactId>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 	<properties>
 		<jenkins.version>2.7.3</jenkins.version>
 		<java.level>7</java.level>
 	</properties>
-	<name>Line Notify Plugin</name>
-	<description>Line Notify Plugin</description>
+	<name>Naver Line Notify Plugin</name>
+	<description>Naver Line Notify Plugin</description>
 	<licenses>
 		<license>
 			<name>MIT License</name>
