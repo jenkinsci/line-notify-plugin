@@ -79,8 +79,8 @@
 		</repository>
 	</distributionManagement>
 	<scm>
-		<connection>scm:git:ssh://git@github.com/jenkinsci/line-notify-plugin.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/jenkinsci/line-notify-plugin.git</developerConnection>
+		<connection>scm:git:ssh://github.com/jenkinsci/line-notify-plugin.git</connection>
+		<developerConnection>scm:git:ssh://wisdomcdh@github.com/jenkinsci/line-notify-plugin.git</developerConnection>
 		<url>https://github.com/jenkinsci/line-notify-plugin</url>
 		<tag>line-notify-0.1</tag>
 	</scm>
