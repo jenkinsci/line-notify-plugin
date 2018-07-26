@@ -1,25 +1,21 @@
 <?jelly escape-by-default='true'?>
-<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
-    <f:entry title="Token" field="token">
-        <f:textbox />
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:c="/lib/credentials">
+    <f:entry title="Credential ID" field="credentialsId">
+        <c:select value="${instance.getCredentialsId()}" />
     </f:entry>
     <f:entry title="When" field="when">
-        <select name="when">
-            <option value="ALL" selected="${instance.when.equals('ALL') ? 'true': null}">ALL</option>
-            <option value="SUCCESS" selected="${instance.when.equals('SUCCESS') ? 'true': null}">SUCCESS</option>
-            <option value="FAILURE" selected="${instance.when.equals('FAILURE') ? 'true': null}">FAILURE</option>
-        </select>
+        <f:select/>
+    </f:entry>
+    <f:entry title="Message" field="message">
+        <f:textbox default="${descriptor.defaultMessage}" />
     </f:entry>
     <f:section title="Advanced Options">
         <f:advanced>
-            <f:entry title="Message" field="message">
-                <f:textbox />
-            </f:entry>
             <f:entry title="ImageThumbnail" field="imageThumbnail">
-                <f:textbox />
+                <f:textbox default="${descriptor.defaultImageThumbnail}" />
             </f:entry>
             <f:entry title="ImageFullsize" field="imageFullsize">
-                <f:textbox />
+                <f:textbox default="${descriptor.defaultImageFullsize}" />
             </f:entry>
         </f:advanced>
     </f:section>
