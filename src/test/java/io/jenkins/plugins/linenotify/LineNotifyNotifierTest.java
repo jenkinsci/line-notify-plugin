@@ -15,11 +15,11 @@ public class LineNotifyNotifierTest {
     @Test
     @Ignore
     public void testBuild() throws Exception {
-        FreeStyleProject project = jenkins.createFreeStyleProject("TestProject");
-        LineNotifyNotifier builder = new LineNotifyNotifier("SET TOKEN", "SUCCESS");
-        EmptyBuilder emptyBuilder = new EmptyBuilder("test");
-        project.getBuildersList().add(emptyBuilder);
-        project.getPublishersList().add(builder);
-        FreeStyleBuild build = jenkins.buildAndAssertSuccess(project);
+//        FreeStyleProject project = jenkins.createFreeStyleProject("TestProject");
+//        LineNotifyNotifier builder = new LineNotifyNotifier("SET TOKEN", "SUCCESS");
+//        EmptyBuilder emptyBuilder = new EmptyBuilder("test");
+//        project.getBuildersList().add(emptyBuilder);
+//        project.getPublishersList().add(builder);
+//        FreeStyleBuild build = jenkins.buildAndAssertSuccess(project);
     }
 }
