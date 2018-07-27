@@ -7,7 +7,7 @@
         <version>3.17</version>
         <relativePath />
     </parent>
-    <groupId>io.jenkins.plugins</groupId>
+    <groupId>org.jenkins.plugins</groupId>
     <artifactId>line-notify</artifactId>
     <version>0.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
