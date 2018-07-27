@@ -154,14 +154,10 @@ public class LineNotifyNotifier extends Notifier implements SimpleBuildStep {
     }
 
     private Boolean isInValidNotifyStatus(Result buildResult, Result whenResult) {
-        if (whenResult == null || buildResult == null) {
+        if (buildResult == null || whenResult == null) {
             return false;
         } else {
-            if (buildResult.equals(whenResult)) {
-                return false;
-            } else {
-                return true;
-            }
+            return buildResult.ordinal != whenResult.ordinal;
         }
     }
 
